@@ -33,7 +33,7 @@ class EditState(forms.ModelForm):
 
                     ),
                     Div(
-                        Div(FormActions(Submit('submit', 'submit')), css_class="col-md-12")
+                        Div(FormActions(Submit('submit', 'submit')), css_class="col-md-12"),
                     css_class='row'
 
                         )
